@@ -30,6 +30,11 @@ train: time ./Train_transI -size 50 -margin 4 -method 0
 
 test: ./Test unif
 
+There are additional files needed in training, pre-training is optional:
+
+1. image2vec_fc7.txt: image feature vector, pre-trained by AlexNet (fc7 layer)
+2. (optional) entity2vec.unif / relation2vec.unif: entity & relation vector, pre-trained by TransE
+3. (optional) image_mat.unif: image projection matrix, pre-trained by IKRL (AVG)
 
 # CITE
 
