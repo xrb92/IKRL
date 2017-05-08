@@ -4,6 +4,7 @@ Image-embodied Knowledge Representation Learning (IJCAI-2017)
 
 New: Add dataset
 
+
 # INTRODUCTION
 
 Image-embodied Knowledge Representation Learning (IKRL)
@@ -17,14 +18,18 @@ Written by Ruobing Xie
 
 Just type make in the folder ./
 
+
 # DATA
 
 We use a new dataset WN9-IMG, with triples extracted from WN18 and images extracted from ImageNet.
 
-# Run
+
+# RUN
 
 train: time ./Train_transI -size 50 -margin 4 -method 0
+
 test: ./Test unif
+
 
 # CITE
 
